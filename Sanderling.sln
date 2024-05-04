@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implement", "implement", "{A50B03FE-43EE-49E7-B660-21C4B1CFF877}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "read-memory-64-bit", "implement\read-memory-64-bit\read-memory-64-bit.csproj", "{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "explore", "explore", "{310EC2DC-924E-49FD-8DF0-314AF3ACE84A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2019-12-28.explore-64-bit-client", "2019-12-28.explore-64-bit-client", "{7CE5799B-0281-4069-9651-BE6B35874629}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "read-memory-64-bit", "explore\2019-12-28.explore-64-bit-client\read-memory-64-bit\read-memory-64-bit.csproj", "{77848D96-76E1-4D93-AC4B-008F2B09FCAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77848D96-76E1-4D93-AC4B-008F2B09FCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77848D96-76E1-4D93-AC4B-008F2B09FCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77848D96-76E1-4D93-AC4B-008F2B09FCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77848D96-76E1-4D93-AC4B-008F2B09FCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB8EEB54-EF10-4D2B-9743-43DD23EBEE63} = {A50B03FE-43EE-49E7-B660-21C4B1CFF877}
+		{7CE5799B-0281-4069-9651-BE6B35874629} = {310EC2DC-924E-49FD-8DF0-314AF3ACE84A}
+		{77848D96-76E1-4D93-AC4B-008F2B09FCAA} = {7CE5799B-0281-4069-9651-BE6B35874629}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CCAA100-35B7-4D67-AF75-C786C66BDDBB}
+	EndGlobalSection
+EndGlobal
